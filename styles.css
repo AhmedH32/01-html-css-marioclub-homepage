@@ -124,3 +124,26 @@ footer{
 nav li a:hover{
     text-decoration: underline;
 }
+.images li:hover{
+    transform: scale(1.05);
+    position: relative;
+    /* top: -4px; */
+    transition: all 0.3s ease;
+}
+form input:focus{
+    outline: none;
+    border: 4px dashed #F63232;
+    box-shadow: 0 0 10px rgba(246, 50, 50, 0.5);
+}
+form input:valid{
+    border: 4px dashed #1ef60a;
+    box-shadow: 0 0 10px #1ef60a
+}
+article p::first-line{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+p::selection{
+    background-color: #F63232;
+    color: white;
+}

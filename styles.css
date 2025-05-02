@@ -23,6 +23,7 @@ header h1{
 }
 .banner{
     position: relative;
+    top: 5px;
 }
 .banner img{
     max-width: 100%;

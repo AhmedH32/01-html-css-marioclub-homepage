@@ -1,18 +1,70 @@
-div{
-    background:rebeccapurple;
+body, ul, li, h1, h2, h3, a{
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
 }
-div:hover{
-    background:blue;
+header
+{
+    background-color: #F63232;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top:0;
+    left: 0;
 }
-div:active{
-    background:green;
+header h1{
+    color: white;
+    border: 8px solid white;
+    padding: 6px 12px;
+    display: inline-block;
+    border-radius: 36px;
 }
-div:focus{
-    background:yellow;
+.banner{
+    position: relative;
 }
-div:focus-within{
-    background:orange;
+.banner img{
+    max-width: 100%;
 }
-div:focus-visible{
-    background:cyan;
+.banner .welcome{
+    background-color: #FEB614;
+    color: white;
+    position: absolute;
+    padding: 30px;
+    left: 0px;
+    top: 30%;
+}
+.banner h2{
+    font-size: 60px;
+}
+.banner h2 span{
+    font-size: 1.3em;
+}
+nav{
+    background-color: #f4f4f4;
+    white-space: nowrap;
+    padding: 20px;
+    position: sticky;
+    top: 102px;
+}
+nav li{
+    width: 25%;
+    display: inline-block;
+    font-size: 24px;
+    max-width: 1200px;
+    margin: 0px 0px auto auto;
+}
+nav li a{
+    text-decoration: none;
+    color: #4b4b4b;
+}
+nav li a.join{
+    color: #F63232;
+}
+main{
+    max-width: 100%;
+    width: 1200px;
+    margin: 80px auto;
+    padding: 0 40px;
 }

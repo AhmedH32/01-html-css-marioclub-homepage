@@ -1,3 +1,18 @@
 div{
     background:rebeccapurple;
 }
+div:hover{
+    background:blue;
+}
+div:active{
+    background:green;
+}
+div:focus{
+    background:yellow;
+}
+div:focus-within{
+    background:orange;
+}
+div:focus-visible{
+    background:cyan;
+}

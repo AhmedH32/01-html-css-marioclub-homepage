@@ -1,6 +1,6 @@
-# <MarioClub landing page>
+# MarioClub landing page
 
-> Step <1>/6: <HTML & CSS project> — part of my structured web‑dev learning journey
+> Step 1/6: <HTML & CSS project> — part of my structured web‑dev learning journey
 
 
 
